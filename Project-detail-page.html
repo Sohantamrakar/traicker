@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <!-- Google Fonts -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body class="bg-black">
+<div class="container rounded p-2">
+   <div class=" m-1 d-flex">
+    <div class="col-lg-3 col-md-3 col-12 bg-col3 border-end" style="
+    border-radius: 20px 0px 0px 20px;">
+        <div class=" Project-list ">
+            <div><p class="mt-3 mx-2">Project Details</p>
+            <span class="mx-2">Basic Information</span></div>
+           </div>
+           <!-- upload-image -->
+           <div class="profile text-center mt-3">
+            <i class="fa-solid fa-bolt"></i>
+            <p>Upload image</p>
+           </div>
+           <hr>
+           <!-- modal -->
+           <div class="list text-center">
+
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Members
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title fs-5" id="exampleModalLabel">Add members</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="exampleFormControlInput1" class="form-label float-md-start">Add member</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>can edit</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+  <div class="text-primary"><i class="fa-solid fa-link"></i> <a href="" class="text-primary"> Copy Link</a></div>
+  <div class="btngradient2">
+    <button type="button" class="btn ">Invite</button>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second modal -->
+
+ <div>
+    <div><a href="">Checklist</a></div>
+    <div><a href="">Move</a></div>
+    <div><a href="">Copy</a></div>
+    <div><a href="">Archive</a></div>
+    <div><a href="">Share</a></div>
+ </div>
+           </div>
+    </div>
+    <div class="col-lg-9 col-md-9 col-12  p-3 bg-col9" style="
+    border-radius: 0px 20px 20px 0px;">
+        <div class="mx-3">
+            <div class="mb-3 Emuvv">
+                <label for="exampleFormControlInput1" class="form-label">Project Name</label>
+                <input type="email" class="form-control w-100" id="exampleFormControlInput1" placeholder="Emuvv">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Description</label>
+                <textarea class="form-control w-100" placeholder="Write something" id="floatingTextarea2" style="height: 100px"></textarea>
+              </div>
+        </div>
+<!-- date picker -->
+<div class="reservation-box">
+    <div class="bottom">
+        <label for="exampleFormControlInput1" class="form-label">Timelines</label>
+      </div>
+    <div class="top">
+      <div class="static">
+        <div class="input-container" id="date-picker-container">
+          <label for="date-from">check-in</label>
+          <input type="date" id="date-checkin" class="date-field" name"date-from">
+        </div>
+      </div>
+      <div class="flex">
+        <div class="input-container" id="date-picker-container">
+          <label for="date-from">check-out</label>
+          <input type="date" id="date-checkout" class="date-field" name"">
+        </div>
+    
+      </div>
+    </div>
+  
+  </div>
+  <!-- attachment -->
+<div class="p-3">
+    <label for="exampleFormControlInput1" class="form-label">Attachment</label>
+    <div class="card w-100 mb-3 p-3 Attachment">
+      <div class="d-flex justify-content-between">
+       <div class="d-flex">
+        <div><i class="fa-solid fa-file-lines"></i> Brand Guidelines</div>
+       </div>
+        <div><span>2.2 Mb</span></div>
+      </div>
+      <!-- 2 -->
+      <div class="d-flex justify-content-between">
+        <div class="d-flex">
+         <div><i class="fa-solid fa-file-lines"></i> Brand Guidelines</div>
+        </div>
+         <div><span>2.2 Mb</span></div>
+       </div>
+       <!-- 3 -->
+       <div class="d-flex justify-content-between">
+        <div class="d-flex">
+         <div><i class="fa-solid fa-file-lines"></i> Brand Guidelines</div>
+        </div>
+         <div><span>2.2 Mb</span></div>
+       </div>
+       <!-- 4 -->
+       <div class="d-flex justify-content-between">
+        <div class="d-flex">
+         <div><i class="fa-solid fa-file-lines"></i> Brand Guidelines</div>
+        </div>
+         <div><span>2.2 Mb</span></div>
+       </div>
+      </div>
+</div>
+<!-- comments box -->
+<div class="mb-3 p-3">
+    <label for="exampleFormControlInput1" class="form-label">Comments</label>
+    <textarea class="form-control h-25 w-100" placeholder="Comments here" id="floatingTextarea2"></textarea>
+  </div>
+
+  <!-- Add buttons -->
+  <div class="d-grid gap-2 mx-3 btngradient">
+    <button class="btn  text-start " type="button" data-bs-toggle="modal" data-bs-target="#modaltwo">Add Task</button>
+
+      
+<div class="modal fade" id="modaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title fs-5" id="exampleModalLabel">Add members</p>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Task:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Member</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+
+           <!-- date picker -->
+           <div class="reservation-box">
+            <div class="bottom">
+                <label for="exampleFormControlInput1" class="form-label">Timelines</label>
+              </div>
+            <div class="top">
+              <div class="static">
+                <div class="input-container" id="date-picker-container2">
+                  <label for="date-from">check-in</label>
+                  <input type="date" id="date-checkin" class="date-field" name"date-from">
+                </div>
+              </div>
+              <div class="flex">
+                <div class="input-container" id="date-picker-container2">
+                  <label for="date-from">check-out</label>
+                  <input type="date" id="date-checkout" class="date-field" name"">
+                </div>
+            
+              </div>
+            </div>
+          
+          </div>
+          
+        <div class="modal-footer">
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<div class="mt-2 mx-3 btngradient2 ">
+    <button type="button" class="btn ">Save</button>
+</div>
+    </div>
+   </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        /* --------------------------------------------------------------- */
+/* -- Select the input when clicking inside the input container -- */
+/* --------------------------------------------------------------- */
+const dateContainers = document.querySelectorAll('.input-container');
+dateContainers.forEach(dateContainer => {
+  const dateInput = dateContainer.querySelector('.date-field');
+  if (dateInput) {
+    dateContainer.addEventListener('click', function (event) {
+      dateInput.select();
+    });
+  }
+});
+
+/* ----------------------------------------------------------------------------- */
+/* -- Automatically set the date for check-in (today) and checkout (tomorrow) -- */
+/* ----------------------------------------------------------------------------- */
+document.addEventListener("DOMContentLoaded", function () {
+  const dateCheckin = document.getElementById("date-checkin");
+  const dateCheckout = document.getElementById("date-checkout");
+  const today = new Date(); 
+  const tomorrow = new Date(today); tomorrow.setDate(tomorrow.getDate() + 1);
+  dateCheckin.valueAsDate = today;
+  dateCheckout.valueAsDate = tomorrow;
+  dateCheckin.addEventListener("input", function () {
+    const checkinDate = dateCheckin.valueAsDate;
+    const checkoutDate = dateCheckout.valueAsDate;
+    if (checkinDate > checkoutDate) {
+      const newCheckoutDate = new Date(checkinDate);
+      newCheckoutDate.setDate(newCheckoutDate.getDate() + 1);
+      dateCheckout.valueAsDate = newCheckoutDate;
+    }
+  });
+  dateCheckout.addEventListener("input", function () {
+    const checkinDate = dateCheckin.valueAsDate;
+    const checkoutDate = dateCheckout.valueAsDate;
+    if (checkoutDate < checkinDate) {
+      const newCheckinDate = new Date(checkoutDate);
+      newCheckinDate.setDate(newCheckinDate.getDate() - 1);
+      dateCheckin.valueAsDate = newCheckinDate;
+    }
+  });
+});
+
+
+
+
+/* -- TESTKIT BUTTON -- */
+document.querySelector('.test').addEventListener('click', function () {
+  const reservationBox = document.querySelector('.reservation-box');
+  const button = document.querySelector('.test');
+  reservationBox.classList.toggle('small');
+  button.classList.toggle('small');
+});
+    </script>
+
+
+<!-- modal datepicker  -->
+<script>
+  
+</script>
+  </body>
+</html>
